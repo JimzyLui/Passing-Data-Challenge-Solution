@@ -31,10 +31,8 @@
     //check to make sure that the sender is the correct object and that the destination is the correct viewController
     if([sender isKindOfClass:[UIButton class]]){
         if([segue.destinationViewController isKindOfClass:[PDDetailViewController class]]){
-            PDDetailViewController *nextViewController = segue.destinationViewController;
-            NSString *value = self.textField.text;
-            nextViewController.labelValue = value;
-            
+            PDDetailViewController *detailVC = segue.destinationViewController;
+            detailVC.detailLabelValue = self.textField.text;
         }
     }
 }

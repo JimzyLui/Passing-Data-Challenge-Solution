@@ -10,5 +10,5 @@
 
 @interface PDDetailViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *detailLabel;
-@property(strong,nonatomic)NSString *labelValue;
+@property(strong,nonatomic)NSString *detailLabelValue;
 @end

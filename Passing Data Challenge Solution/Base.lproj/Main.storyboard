@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - First Page-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="PDViewController" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="q5Q-22-kao"/>
+                    <navigationItem key="navigationItem" title="First Page" id="q5Q-22-kao"/>
                     <connections>
                         <outlet property="textField" destination="51p-c1-4jH" id="Xhx-LL-zE8"/>
                     </connections>
@@ -44,7 +44,7 @@
             </objects>
             <point key="canvasLocation" x="664" y="110"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail View Controller - Detail Page-->
         <scene sceneID="8Ga-pO-wBA">
             <objects>
                 <viewController id="udc-dA-qo2" customClass="PDDetailViewController" sceneMemberID="viewController">
@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGU-0q-Y9e">
-                                <rect key="frame" x="139" y="203" width="42" height="21"/>
+                                <rect key="frame" x="20" y="203" width="267" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -66,7 +66,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iX7-mW-b7F"/>
+                    <navigationItem key="navigationItem" title="Detail Page" id="iX7-mW-b7F"/>
                     <connections>
                         <outlet property="detailLabel" destination="lGU-0q-Y9e" id="2Pa-4B-agW"/>
                     </connections>
