@@ -21,6 +21,7 @@
 		7D66FC4D1818691000538AB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D66FC2F1818691000538AB9 /* UIKit.framework */; };
 		7D66FC551818691000538AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D66FC531818691000538AB9 /* InfoPlist.strings */; };
 		7D66FC571818691000538AB9 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D66FC561818691000538AB9 /* Passing_Data_Challenge_SolutionTests.m */; };
+		7D66FC6218186A5D00538AB9 /* PDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D66FC6118186A5D00538AB9 /* PDDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7D66FC521818691000538AB9 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7D66FC541818691000538AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D66FC561818691000538AB9 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7D66FC6018186A5D00538AB9 /* PDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDetailViewController.h; sourceTree = "<group>"; };
+		7D66FC6118186A5D00538AB9 /* PDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				7D66FC411818691000538AB9 /* PDViewController.m */,
 				7D66FC431818691000538AB9 /* Images.xcassets */,
 				7D66FC321818691000538AB9 /* Supporting Files */,
+				7D66FC6018186A5D00538AB9 /* PDDetailViewController.h */,
+				7D66FC6118186A5D00538AB9 /* PDDetailViewController.m */,
 			);
 			path = "Passing Data Challenge Solution";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D66FC3C1818691000538AB9 /* PDAppDelegate.m in Sources */,
+				7D66FC6218186A5D00538AB9 /* PDDetailViewController.m in Sources */,
 				7D66FC421818691000538AB9 /* PDViewController.m in Sources */,
 				7D66FC381818691000538AB9 /* main.m in Sources */,
 			);
